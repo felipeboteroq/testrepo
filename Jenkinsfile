@@ -12,7 +12,7 @@ pipeline {
         
         stage('deploy') {
             steps {
-                sh 'echo $INSTANCE_NAME'   
+                sh 'echo $AMI_ID'   
             }
         }
     }
